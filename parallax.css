@@ -1,0 +1,72 @@
+.textSection {
+    /*Font size is determined inline*/
+    font-size:1.3em;
+    font-family:  'Josefin Sans', sans-serif;
+    color: white;
+    text-align: center;
+    box-shadow: -3px 4px 20px 3px rgba(0, 0, 0, 0.42);
+    overflow: hidden;
+    margin-top: 0;
+    padding: 0;
+    background: rgba(255,205,80,1);
+}
+.textSection p{
+    padding: 0;
+}
+.parallax {
+    height: 575px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* other text editing CSS that Jordane wrote */
+.aboutText {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.toTheLeft {text-align: left;}
+
+.indentedText {margin-left: 10%;}
+
+.aboutPageText-Teir1{
+    font-size: 1em;
+}
+.aboutPageText-Teir2{
+    font-size: .7em;
+}
+
+.bioCard {
+    display: inline-block;
+    margin: 4%;
+}
+
+.bioCard:hover {
+    box-shadow: 3px 4px 20px 3px rgba(0, 0, 0, 0.42);
+}
+
+.bioCard img {
+    width:15%;
+    height: auto;
+}
+
+.insetShadow {
+    box-shadow: inset -3px 4px 20px 3px rgba(0, 0, 0, 0.42);
+
+}
+
+.bioCardText {
+    font-size: .5em;
+    width: 59%;
+    margin: 0;
+    display: inline-block;
+}
+.description {
+    margin: 0;
+    color: black;
+    text-align: left;
+    text-shadow: 1px 2px 2px #cd488a;
+    font-size: 1.75em;
+}
